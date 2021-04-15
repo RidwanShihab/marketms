@@ -1,7 +1,220 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c503333-1900-440a-921c-6721e0e13885" name="Default Changelist" comment="" />
+    <list default="true" id="1c503333-1900-440a-921c-6721e0e13885" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/authenticationSystem/templates/Auth/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticationSystem/templates/layouts/app.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticationSystem/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/nucleo-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/nucleo-svg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/soft-ui-dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/soft-ui-dashboard.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/soft-ui-dashboard.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/fonts/nucleo-icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/fonts/nucleo-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/fonts/nucleo-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/fonts/nucleo-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/fonts/nucleo-icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/fonts/nucleo.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/fonts/nucleo.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/fonts/nucleo.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/fonts/nucleo.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/bruce-mars.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/curved-images/curved-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/curved-images/curved0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/curved-images/curved14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/curved-images/curved6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/curved-images/white-curved.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/home-decor-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/home-decor-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/home-decor-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/illustrations/rocket-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/ivana-square.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/ivancik.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/kal-visuals-square.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/logo-ct.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/logos/mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/logos/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/marie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/shapes/waves-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/small-logos/logo-atlassian.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/small-logos/logo-invision.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/small-logos/logo-jira.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/small-logos/logo-slack.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/small-logos/logo-spotify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/small-logos/logo-webdev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/small-logos/logo-xd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/team-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/team-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/team-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/team-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/core/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/core/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/plugins/Chart.extension.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/plugins/bootstrap-notify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/plugins/chartjs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/plugins/perfect-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/plugins/smooth-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/soft-ui-dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/soft-ui-dashboard.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/soft-ui-dashboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_dropup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_fixed-plugin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_info-areas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_navbar-vertical.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_popovers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_rtl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_social-buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_tooltips.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/avatars/_avatar-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/avatars/_avatar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_accordion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_containers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_helpers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_offcanvas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/bootstrap-utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/forms/_floating-labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/forms/_form-check.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/forms/_form-control.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/forms/_form-range.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/forms/_form-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/forms/_form-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/forms/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/forms/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/forms/_validation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/helpers/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/helpers/_colored-links.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/helpers/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/helpers/_ratio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/helpers/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/helpers/_text-truncation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/helpers/_visually-hidden.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_container.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_table-variants.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/mixins/_visually-hidden.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/utilities/_api.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/bootstrap/vendor/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/breadcrumbs/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/cards/card-background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/custom/_styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/custom/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/forms/_form-check.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/forms/_form-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/forms/_form-switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/forms/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/forms/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/forms/_inputs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/forms/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/mixins/_social-buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/mixins/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/variables/_animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/variables/_avatars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/variables/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/variables/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/variables/_dropdowns.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/variables/_fixed-plugin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/variables/_form-switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/variables/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/variables/_info-areas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/variables/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/variables/_navbar-vertical.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/variables/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/variables/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/variables/_rtl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/variables/_social-buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/variables/_table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/variables/_timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/scss/soft-ui-dashboard/variables/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoChat/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoChat/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoChat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoChat/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationSystem/authenticationmodule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationSystem/templates/Auth/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,12 +225,12 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DjangoChat/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            <state relative-caret-position="246">
+              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
               <folding>
                 <element signature="e#634#666#0" expanded="true" />
               </folding>
@@ -26,44 +239,117 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login/urls.py">
+        <entry file="file://$PROJECT_DIR$/authenticationSystem/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="198">
+              <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
               <folding>
-                <element signature="e#1#33#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/login/views.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authenticationSystem/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state>
+              <caret lean-forward="true" selection-end-line="5" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authenticationSystem/authenticationmodule.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoChat/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="126" column="25" selection-start-line="126" selection-start-column="25" selection-end-line="126" selection-end-column="25" />
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
+                <element signature="e#311#335#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authenticationSystem/templates/Auth/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="51" column="22" lean-forward="true" selection-start-line="1" selection-end-line="51" selection-end-column="22" />
+              <folding>
+                <element signature="n#section#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authenticationSystem/templates/Auth/signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-256">
+              <caret line="6" column="175" selection-start-line="6" selection-start-column="175" selection-end-line="6" selection-end-column="175" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/authenticationSystem/templates/layouts/app.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2134">
+              <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <option value="$PROJECT_DIR$/login/urls.py" />
-        <option value="$PROJECT_DIR$/login/views.py" />
-        <option value="$PROJECT_DIR$/DjangoChat/urls.py" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/login/templates/auth/login.html" />
+        <option value="$PROJECT_DIR$/login/templates/Auth/login.html" />
+        <option value="$PROJECT_DIR$/login/urls.py" />
+        <option value="$PROJECT_DIR$/login/views.py" />
+        <option value="$PROJECT_DIR$/authSystem/templates/Auth/test.html" />
+        <option value="$PROJECT_DIR$/authSystem/views.py" />
+        <option value="$PROJECT_DIR$/DjangoChat/urls.py" />
+        <option value="$PROJECT_DIR$/authenticationSystem/views.py" />
+        <option value="$PROJECT_DIR$/DjangoChat/settings.py" />
+        <option value="$PROJECT_DIR$/authenticationSystem/authenticationmodule.py" />
+        <option value="$PROJECT_DIR$/authenticationSystem/urls.py" />
+        <option value="$PROJECT_DIR$/authenticationSystem/templates/layouts/app.html" />
+        <option value="$PROJECT_DIR$/authenticationSystem/templates/Auth/login.html" />
+        <option value="$PROJECT_DIR$/authenticationSystem/templates/Auth/signup.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -81,12 +367,47 @@
             <path>
               <item name="DjangoChat" type="b2602c69:ProjectViewProjectNode" />
               <item name="DjangoChat" type="462c0819:PsiDirectoryNode" />
+              <item name="authenticationSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoChat" type="462c0819:PsiDirectoryNode" />
+              <item name="authenticationSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoChat" type="462c0819:PsiDirectoryNode" />
+              <item name="authenticationSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoChat" type="462c0819:PsiDirectoryNode" />
+              <item name="authenticationSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoChat" type="462c0819:PsiDirectoryNode" />
               <item name="DjangoChat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DjangoChat" type="b2602c69:ProjectViewProjectNode" />
               <item name="DjangoChat" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoChat" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -95,11 +416,23 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\470 pro\DjangoChat\static" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -149,70 +482,185 @@
       <option name="presentableId" value="Default" />
       <updated>1618415008092</updated>
       <workItem from="1618415017225" duration="3399000" />
+      <workItem from="1618420324832" duration="1784000" />
+      <workItem from="1618505685890" duration="9341000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3399000" />
+    <option name="totallyTimeSpent" value="14524000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5131291" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17202573" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.40153173" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32852387" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.29522753" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17202573" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32852387" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.29522753" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DjangoChat/urls.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DjangoChat/urls.py">
+    <entry file="file://$PROJECT_DIR$/authSystem/templates/Auth/loginUI.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        <state relative-caret-position="-7">
+          <caret line="187" column="7" selection-start-line="187" selection-start-column="7" selection-end-line="187" selection-end-column="7" />
           <folding>
-            <element signature="e#634#666#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login/urls.py">
+    <entry file="file://$PROJECT_DIR$/authSystem/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="154">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
             <element signature="e#1#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login/views.py">
+    <entry file="file://$PROJECT_DIR$/authSystem/templates/Auth/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authSystem/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/js/core/popper.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoChat/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="e#634#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authenticationSystem/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authenticationSystem/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authenticationSystem/authenticationmodule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoChat/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="126" column="25" selection-start-line="126" selection-start-column="25" selection-end-line="126" selection-end-column="25" />
+          <folding>
+            <element signature="e#311#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authenticationSystem/templates/Auth/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="6" column="175" selection-start-line="6" selection-start-column="175" selection-end-line="6" selection-end-column="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authenticationSystem/templates/Auth/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="51" column="22" lean-forward="true" selection-start-line="1" selection-end-line="51" selection-end-column="22" />
+          <folding>
+            <element signature="n#section#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authenticationSystem/templates/layouts/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2134">
+          <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
         </state>
       </provider>
     </entry>
