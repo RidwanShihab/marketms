@@ -12,4 +12,6 @@ urlpatterns = [
     path('signup/', authenticationmodule.signup, name='signuppage'),
     path('dashboard/', cms.dashboard, name='dashboardpage'),
     path('logout/', authenticationmodule.logout_view, name='logoutpage'),
+    path('billing/', cms.billing , name='billingpage'),
+    path('profile/', cms.profile , name='profilepage'),
 ]
