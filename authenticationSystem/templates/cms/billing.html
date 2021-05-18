@@ -2,6 +2,61 @@
 {% load static %}
 
 {% block content %}
+       <form method="POST" action="{% url 'billingpage' %}" role="form text-left">{% csrf_token %}
+                 <p class="text-sm mt-3 mb-0"> Pay with Bkash:01700000000 </p>
+                 <p class="text-sm mt-3 mb-0"> Pay with Nagad:01600000000 </p>
+                 <label for="cars">Choose a Payment method:</label>
+                 <select name="method" id="method">
+                <option value="Bkash">Bkash</option>
+                <option value="Nagad">Nagad</option>
+
+                </select>
+                <div class="mb-3">
+                  <input type="text" name="tid" class="form-control" placeholder="transaction id " aria-label="Name" aria-describedby="email-addon">
+                </div>
+                <div class="mb-3">
+                  <input type="text" name="phone" class="form-control" placeholder="phone number" aria-label="Phone" aria-describedby="email-addon">
+                </div>
+                <div class="mb-3">
+                 <div class="mb-3">
+                  <input type="text" name="email" class="form-control" placeholder="mail id" aria-label="Phone" aria-describedby="email-addon">
+                </div>
+                <div class="mb-3">
+                <div class="mb-3">
+                  <input type="text" name="amount" class="form-control" placeholder="amount" aria-label="Phone" aria-describedby="email-addon">
+                </div>
+                <div class="mb-3">
+                <div class="mb-3">
+                <input type="text" name="month" class="form-control" placeholder="month with year" aria-label="Phone" aria-describedby="email-addon">
+                </div>
+                <div class="mb-3">
+
+
+
+
+
+                  <button type="submit" class="btn bg-gradient-dark w-100 my-4 mb-2">Apply</button>
+                </div>
+                <p class="text-sm mt-3 mb-0">please wait until the owner confirms </p>
+              </form>
+
+
+        <table style="width:100%">
+        <tr>
+         <th>Month</th>
+         <th >Transaction id</th>
+         <th >amount</th>
+         <th >verified</th>
+         </tr>
+         {%  for biller in billtable %}
+         <tr>
+           <td>{{ biller.month }}</td>
+         <td>{{ biller.tid }}</td>
+         <td>{{ biller.amount }}</td>
+         <td>{{ biller.stat }}</td>
+          </tr>
+        {% endfor %}
+        </table>
 
 
 

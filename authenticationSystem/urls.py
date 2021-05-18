@@ -14,4 +14,5 @@ urlpatterns = [
     path('logout/', authenticationmodule.logout_view, name='logoutpage'),
     path('billing/', cms.billing , name='billingpage'),
     path('profile/', cms.profile , name='profilepage'),
+    path('applyshop/', cms.applyshop , name='applyshoppage'),
 ]

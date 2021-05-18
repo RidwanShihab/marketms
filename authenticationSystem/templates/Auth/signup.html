@@ -1,5 +1,6 @@
 {% extends 'layouts/app.html' %}
 
+
 {% load static %}
 {% block content %}
 
@@ -67,7 +68,7 @@
               </div>
             </div>
             <div class="card-body">
-              <form method="POST" action="{% url 'signuppage' %}" role="form text-left">
+              <form method="POST" action="{% url 'signuppage' %}" role="form text-left">{% csrf_token %}
                 <div class="mb-3">
                   <input type="text" name="name" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="email-addon">
                 </div>

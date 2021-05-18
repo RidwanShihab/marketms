@@ -2,7 +2,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.hashers import make_password
 from django.contrib.auth.models import User
 from django.shortcuts import render, redirect
-
+from authenticationSystem.models import Profile
 
 # Create your views here.
 
@@ -33,15 +33,20 @@ def signup(request):
 
             newUser = User()
             newUser.username = name
-            newUser.phone = phone
             newUser.password = make_password(password)
             newUser.save()
-            user = authenticate(request, username=request.POST.get('user_name'), password=request.POST.get('password'))
+
+            newUser.profile.name = name
+            newUser.profile.phone_number= phone
+            newUser.profile.save()
+
+
+            user = authenticate(request, username=request.POST.get('name'), password=request.POST.get('password'))
             if user is not None:
                 login(request, user)
                 return redirect('dashboard')
             else:
-                return redirect('loginPage')
+                return redirect('loginpage')
 
 
 

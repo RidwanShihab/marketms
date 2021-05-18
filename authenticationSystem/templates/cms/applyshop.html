@@ -1,0 +1,39 @@
+{% extends 'layouts/dashboard_layout.html' %}
+{% load static %}
+
+{% block content %}
+
+            <form method="POST" action="{% url 'applyshoppage' %}" role="form text-left">{% csrf_token %}
+                <div class="mb-3">
+                  <input type="text" name="description" class="form-control" placeholder="write which shop you need and purpose " aria-label="Name" aria-describedby="email-addon">
+                </div>
+                <div class="mb-3">
+                  <input type="text" name="phone" class="form-control" placeholder="verified phone number" aria-label="Phone" aria-describedby="email-addon">
+                </div>
+                <div class="mb-3">
+                 <div class="mb-3">
+                  <input type="text" name="email" class="form-control" placeholder="mail id" aria-label="Phone" aria-describedby="email-addon">
+                </div>
+                <div class="mb-3">
+                <div class="mb-3">
+                  <input type="text" name="address" class="form-control" placeholder="Address" aria-label="Phone" aria-describedby="email-addon">
+                </div>
+                <div class="mb-3">
+                <div class="mb-3">
+                <input type="text" name="shopname" class="form-control" placeholder="shopname" aria-label="Phone" aria-describedby="email-addon">
+                </div>
+                <div class="mb-3">
+
+                <div class="mb-3">
+                <input type="text" name="recommender" class="form-control" placeholder="recommender" aria-label="Phone" aria-describedby="email-addon">
+                </div>
+                <div class="mb-3">
+                <p class="text-sm mt-3 mb-0"> if you dont have any just write NA </p>
+
+
+                  <button type="submit" class="btn bg-gradient-dark w-100 my-4 mb-2">Apply</button>
+                </div>
+                <p class="text-sm mt-3 mb-0">please wait until the owner confirms </p>
+              </form>
+
+{% endblock content %}
